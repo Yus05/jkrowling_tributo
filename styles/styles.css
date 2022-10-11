@@ -3,7 +3,26 @@ Colors img:
 rgb(226, 224, 219)
 rgb(39, 43, 44)
 rgb(140, 169, 179)
-rgb(140, 169, 179)
 rgb(72, 71, 62)
 rgb(98, 98, 72)
 */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(226, 224, 219);
+    margin: 0;
+}
+
+.container__image{
+    width: 1200px;
+    height: 623px;
+    background-color: rgb(140, 169, 179);
+}
+
+img{
+    width: 60%;
+    height: 80%; 
+}
