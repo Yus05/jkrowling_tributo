@@ -65,3 +65,5 @@ body{
 li{
     margin-bottom: 20px;
 }
+
+/* crear las clases para las li, no llamarla directamente con la etiqueta li. Continua con la cita y el enlace. */
