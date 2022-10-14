@@ -15,6 +15,7 @@ body{
     color: #fff;
 }
 
+
 .container{
     background-color: #A45D5D;
     margin-left: 5px;
@@ -22,14 +23,17 @@ body{
     border-radius: 5px;
 }
 
+
 .container__title{
     text-align: center;
     padding-top: 20px;
 }
 
+
 .container__text{
     text-align: center;
 }
+
 
 .container__image{
     width: 1200px;
@@ -39,31 +43,48 @@ body{
     background-color: #EFEFEF;
 }
 
+
 .image{
     width: 1000px;
     margin-top: 30px;
     margin-left: 100px;
 }
- .container__caption{
+
+
+.container__caption{
     color: #A45D5D;
  }
 
- .container__description{
- }
 
- .container__title2{
+.container__title2{
     text-align: center;
  }
 
- .container__list{
+
+.container__list{
     list-style-type: disc;
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    padding: 0;
 }
 
-li{
+
+.container__item{
     margin-bottom: 20px;
 }
 
-/* crear las clases para las li, no llamarla directamente con la etiqueta li. Continua con la cita y el enlace. */
+
+.container__cite{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+.container__enlace{
+    text-align: center;
+    padding-bottom: 50px;
+}
